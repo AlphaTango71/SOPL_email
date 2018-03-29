@@ -3,14 +3,12 @@
 @import 'foundation-emails';
 @import 'template/template';
 .small {
-    width: 125px;
-    @media screen and (max-width: 595px) {
-        width: 12%;
-    }
+    width: 125px!important;
 }
 
 .head-padding {
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px!important;
 }
 
 .pendo-pink {
@@ -46,7 +44,7 @@ h1 {
     font-family: 'Proxima Nova', Arial, sans-serif;
     color: #4A4A4A;
     font-size: 1em;
-    margin: 25px 12px 40px 12px;
+    margin: 25px 12px 25px 12px;
 }
 
 .right-block {
@@ -55,6 +53,11 @@ h1 {
 
 .photos {
     padding-top: 10px;
+}
+
+.gdpr-photos {
+    width: 100px;
+    padding-top: 20px;
 }
 
 .caption {
@@ -117,4 +120,10 @@ footer img {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: lightgray;
+    font-size: .6em;
 }
